@@ -44,6 +44,10 @@ module.exports = {
         circuit: "circuit 15s linear infinite",
         "spin-slow": "spin 20s linear infinite",
         "spin-slow-reverse": "spin 25s linear infinite reverse",
+        "pulse-slow": "pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite",
+        "float-slow": "float 8s ease-in-out infinite",
+        "glow-pulse": "glow-pulse 2s ease-in-out infinite",
+        "matrix-rain": "matrix-rain 20s linear infinite",
       },
       keyframes: {
         gradient: {
@@ -77,6 +81,20 @@ module.exports = {
         circuit: {
           "0%": { backgroundPosition: "0% 0%" },
           "100%": { backgroundPosition: "100% 100%" },
+        },
+        "glow-pulse": {
+          "0%, 100%": {
+            "box-shadow":
+              "0 0 20px rgba(0, 242, 254, 0.5), 0 0 40px rgba(139, 30, 255, 0.25)",
+          },
+          "50%": {
+            "box-shadow":
+              "0 0 40px rgba(0, 242, 254, 0.75), 0 0 60px rgba(139, 30, 255, 0.375)",
+          },
+        },
+        "matrix-rain": {
+          "0%": { transform: "translateY(-100%)" },
+          "100%": { transform: "translateY(100%)" },
         },
       },
       backgroundImage: {
