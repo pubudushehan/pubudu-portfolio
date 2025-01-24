@@ -1,0 +1,54 @@
+pubudu-portfolio/
+├── src/
+│   ├── components/
+│   │   ├── layout/
+│   │   │   ├── Navbar.jsx
+│   │   │   ├── Footer.jsx
+│   │   │   └── Layout.jsx
+│   │   ├── home/
+│   │   │   ├── Hero.jsx
+│   │   │   ├── SocialLinks.jsx
+│   │   │   └── TechBackground.jsx
+│   │   ├── services/
+│   │   │   ├── ServiceCard.jsx
+│   │   │   └── ServicesList.jsx
+│   │   ├── resume/
+│   │   │   ├── Skills.jsx
+│   │   │   ├── Timeline.jsx
+│   │   │   ├── SkillCard.jsx
+│   │   │   └── CategorySection.jsx
+│   │   ├── work/
+│   │   │   ├── ProjectCard.jsx
+│   │   │   ├── CertificateCard.jsx
+│   │   │   └── ProjectModal.jsx
+│   │   └── contact/
+│   │       ├── ContactForm.jsx
+│   │       └── ContactInfo.jsx
+│   ├── pages/
+│   │   ├── Home.jsx
+│   │   ├── Services.jsx
+│   │   ├── Resume.jsx
+│   │   ├── Work.jsx
+│   │   └── Contact.jsx
+│   ├── assets/
+│   │   ├── images/
+│   │   ├── icons/
+│   │   └── documents/
+│   ├── styles/
+│   │   ├── index.css
+│   │   └── animations.css
+│   ├── utils/
+│   │   ├── constants.js
+│   │   ├── animations.js
+│   │   └── helpers.js
+│   ├── hooks/
+│   │   └── useScrollAnimation.js
+│   ├── context/
+│   │   └── ThemeContext.js
+│   └── data/
+│       ├── projects.js
+│       ├── services.js
+│       └── skills.js
+└── public/
+    ├── Pubudu_CV.pdf
+    └── assets/ 

@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: "Space Grotesk", system-ui, sans-serif;
+  }
+
+  body {
+    @apply bg-dark text-gray-100;
+    background-image: radial-gradient(
+        circle at 50% 50%,
+        rgba(0, 242, 254, 0.1) 0%,
+        transparent 50%
+      ),
+      radial-gradient(
+        circle at 100% 0%,
+        rgba(139, 30, 255, 0.1) 0%,
+        transparent 50%
+      ),
+      radial-gradient(
+        circle at 0% 100%,
+        rgba(254, 1, 115, 0.1) 0%,
+        transparent 50%
+      );
+    background-attachment: fixed;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-bold text-gray-100;
+  }
+}
+
+@layer components {
+  .container {
+    @apply mx-auto px-4 sm:px-6 lg:px-8 relative z-10;
+  }
+
+  .tech-grid {
+    @apply grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4;
+  }
+
+  .gradient-text {
+    @apply text-transparent bg-clip-text;
+    background-image: linear-gradient(
+      120deg,
+      theme("colors.neon.blue"),
+      theme("colors.neon.purple"),
+      theme("colors.neon.pink")
+    );
+    background-size: 200% auto;
+    animation: gradient 8s linear infinite;
+  }
+
+  .card {
+    @apply relative bg-dark-light/40 backdrop-blur-xl rounded-xl p-6 
+    border border-primary/10 transition-all duration-300
+    hover:border-primary/30 hover:shadow-[0_0_30px_rgba(0,242,254,0.2)]
+    before:absolute before:inset-0 before:rounded-xl before:bg-gradient-to-br 
+    before:from-primary/5 before:to-secondary/5 before:opacity-0 
+    before:transition-opacity hover:before:opacity-100;
+  }
+
+  .button-primary {
+    @apply relative px-6 py-3 bg-gradient-to-r from-primary via-secondary to-accent 
+    text-white rounded-full overflow-hidden transition-all duration-300
+    hover:shadow-[0_0_30px_rgba(0,242,254,0.5)] hover:scale-105 active:scale-95
+    before:absolute before:inset-0 before:bg-gradient-to-r 
+    before:from-accent before:via-secondary before:to-primary
+    before:opacity-0 before:transition-opacity hover:before:opacity-100;
+  }
+
+  .nav-link {
+    @apply relative text-gray-300 hover:text-primary transition-colors duration-200
+    after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-0
+    after:bg-gradient-to-r after:from-primary after:to-secondary
+    after:transition-all hover:after:w-full;
+  }
+
+  .nav-link.active {
+    @apply text-primary after:w-full;
+  }
+
+  .matrix-bg {
+    @apply relative;
+  }
+
+  .matrix-bg::before {
+    content: "";
+    @apply absolute inset-0 bg-matrix-pattern opacity-5;
+    animation: matrix 20s linear infinite;
+  }
+
+  .circuit-bg {
+    @apply relative;
+  }
+
+  .circuit-bg::before {
+    content: "";
+    @apply absolute inset-0 bg-circuit-pattern opacity-5;
+    animation: circuit 15s linear infinite;
+  }
+}
+
+/* Glowing elements */
+.glow {
+  @apply relative;
+  box-shadow: 0 0 10px theme("colors.primary.DEFAULT"),
+    0 0 20px theme("colors.primary.DEFAULT");
+}
+
+.glow::after {
+  content: "";
+  @apply absolute inset-0 rounded-xl;
+  box-shadow: 0 0 20px theme("colors.primary.DEFAULT");
+  animation: glow 2s ease-in-out infinite alternate;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-dark;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-gradient-to-b from-primary via-secondary to-accent rounded-full;
+}
+
+/* Animation keyframes */
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* Base styles for better typography */
+p {
+  @apply text-gray-300 leading-relaxed;
+}
+
+a {
+  @apply text-primary hover:text-primary-light transition-colors duration-200;
+}
+
+/* Add to your existing styles */
+@keyframes pulse-glow {
+  0%,
+  100% {
+    box-shadow: 0 0 10px theme("colors.primary.DEFAULT"),
+      0 0 20px theme("colors.primary.DEFAULT"),
+      0 0 30px theme("colors.primary.DEFAULT");
+  }
+  50% {
+    box-shadow: 0 0 20px theme("colors.primary.DEFAULT"),
+      0 0 30px theme("colors.primary.DEFAULT"),
+      0 0 40px theme("colors.primary.DEFAULT");
+  }
+}
+
+.animate-pulse-glow {
+  animation: pulse-glow 2s ease-in-out infinite;
+}
