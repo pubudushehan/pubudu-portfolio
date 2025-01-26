@@ -199,16 +199,72 @@ const Work = () => {
 const ProjectsSection = ({ setSelectedItem }) => {
   const projects = [
     {
-      title: "Portfolio Website",
+      title: "User Central",
       description:
-        "Modern portfolio website built with React and Framer Motion",
-      image: "/projects/portfolio.webp",
-      technologies: ["React", "Tailwind CSS", "Framer Motion"],
-      github: "https://github.com/yourusername/portfolio",
-      live: "https://yourportfolio.com",
+        "A user management system enabling contact management, messaging, and photo uploads with full CRUD functionality",
+      image: "../public/projects/UserCentral.webp",
+      technologies: ["React", "CSS", "MongoDB", "Express.js", "Node.js"],
+      github: "https://github.com/pubudushehan/UserCentral",
+      live: "#",
       type: "project",
     },
-    // Add more projects...
+    {
+      title: "Text2Art",
+      description:
+        "A web app that creates images from text prompts using OpenAI's DALL-E",
+      image: "../public/projects/Text2Art.webp",
+      technologies: ["MERN", "MongoDB", "Express.js", "React", "Node.js"],
+      github: "https://github.com/pubudu-shehan/textart",
+      live: "#",
+      type: "project",
+    },
+    {
+      title: "Test Genius",
+      description:
+        "A quiz app for Advanced Level ICT students with past paper MCQs, timer-based quizzes",
+      image: "../public/projects/TestGenius.webp",
+      technologies: [
+        "React Vite",
+        "TailwindCSS",
+        "Firebase",
+        "MongoDB",
+        "Express.js",
+        "Node.js",
+      ],
+      github: "https://github.com/pubudu-shehan/test-genius",
+      live: "#",
+      type: "project",
+    },
+    {
+      title: "Abnormal Behavior Detection",
+      description:
+        "Identify abnormal customer behaviors in supermarkets using CCTV footage. AI-driven pose estimation and action recognition",
+      image: "../public/projects/BehaviorDetection.webp",
+      technologies: ["MediaPipe", "LSTM", "TensorFlow", "OpenCV"],
+      github:
+        "https://github.com/pubudushehan/CCTV_Abnormal_Behavior_Detection",
+      live: "#",
+      type: "project",
+    },
+    {
+      title: "Research Gap Analyzer",
+      description:
+        "A tool to identify research gaps across three research papers, summarizing individual papers and detecting shared or unique gaps",
+      image: "../public/projects/ResearchGapAnalyzer.webp",
+      technologies: ["LangML 3.5", "Flask", "Cloud", "Next.js"],
+      github: "https://github.com/pubudushehan/Research-Gap-Analyzer",
+      type: "project",
+    },
+    {
+      title: "Portfolio Website",
+      description:
+        "Modern portfolio website built with React vite and Framer Motion",
+      image: "../public/projects/portfolio.webp",
+      technologies: ["React Vite", "Tailwind CSS", "Framer Motion"],
+      github: "https://github.com/pubudushehan/pubudu-portfolio",
+      live: "#",
+      type: "project",
+    },
   ];
 
   return (
@@ -228,14 +284,77 @@ const ProjectsSection = ({ setSelectedItem }) => {
 const CertificatesSection = ({ setSelectedItem }) => {
   const certificates = [
     {
-      title: "Web Development Certification",
-      issuer: "Coursera",
-      date: "2023",
-      image: "/certificates/web-dev.webp",
-      link: "https://coursera.org/verify/...",
+      title: "AWS Cloud Practitioner Essentials",
+      issuer: "Amazon Web Services (AWS)",
+      date: "2025",
+      image: "../public/certificates/AWS Certificate.webp",
+      link: "#",
       type: "certificate",
     },
-    // Add more certificates...
+    {
+      title: "Introduction to Cloud Computing by IBM",
+      issuer: "Certified from Coursera",
+      date: "2024",
+      image: "../public/certificates/IBM-Cloud.webp",
+      link: "#",
+      type: "certificate",
+    },
+    {
+      title: "Artificial Intelligence fundamentals",
+      issuer: "Certified from Great Learning Academy",
+      date: "2024",
+      image: "../public/certificates/AI-Fundamental.webp",
+      link: "#",
+      type: "certificate",
+    },
+    {
+      title: "Convolutional Neural Networks",
+      issuer: "Certified from Great Learning Academy",
+      date: "2024",
+      image: "../public/certificates/CNN.webp",
+      link: "#",
+      type: "certificate",
+    },
+    {
+      title: "Digital Image Processing",
+      issuer: "Certified from Great Learning Academy",
+      date: "2024",
+      image: "../public/certificates/Image-Processing.webp",
+      link: "#",
+      type: "certificate",
+    },
+    {
+      title: "Java Programming",
+      issuer: "Certified from Great Learning Academy",
+      date: "2024",
+      image: "../public/certificates/Java Programming.webp",
+      link: "#",
+      type: "certificate",
+    },
+    {
+      title: "Probability and Probability Distributions for Machine Learning",
+      issuer: "Certified from Great Learning Academy",
+      date: "2024",
+      image: "../public/certificates/Probabality ML.webp",
+      link: "#",
+      type: "certificate",
+    },
+    {
+      title: "Python Project for Beginners",
+      issuer: "Certified from Great Learning Academy",
+      date: "2024",
+      image: "../public/certificates/Python Begginer.webp",
+      link: "#",
+      type: "certificate",
+    },
+    {
+      title: "Referee of Electro Combat Gaming Competition",
+      issuer: "Certified from University of Sri Jayewardenepura",
+      date: "2024",
+      image: "../public/certificates/Referee-Electro-Cambat.webp",
+      link: "#",
+      type: "certificate",
+    },
   ];
 
   return (
@@ -255,14 +374,32 @@ const CertificatesSection = ({ setSelectedItem }) => {
 const VolunteerSection = ({ setSelectedItem }) => {
   const volunteerWork = [
     {
-      title: "Tech Mentor",
-      organization: "Local Code Club",
-      period: "2022 - Present",
-      description: "Teaching programming to high school students",
-      image: "/volunteer/teaching.webp",
+      title: "Secretary",
+      organization: "Technology Subcommittee: FOT - USJ",
+      period: "2023 - 2024",
+      description:
+        "Serving as Secretary for the Technology Subcommittee at Faculty of Technology, University of Sri Jayewardenepura",
+      image: "../public/volunteer/Headshot.webp",
       type: "volunteer",
     },
-    // Add more volunteer work...
+    {
+      title: "Referee",
+      organization: "J'Pura Electro Combat Robot Battle Competition",
+      period: "2024",
+      description:
+        "Served as a referee for the ElectroCombat Robot Battle competition at University of Sri Jayewardenepura",
+      image: "../public/volunteer/Electro_Combat.webp",
+      type: "volunteer",
+    },
+    {
+      title: "Organizing Committee",
+      organization: "Headshot E Sport Gaming Competition",
+      period: "2025 January",
+      description:
+        "Organizing Committee for the Headshot E Sport Gaming Competition",
+      image: "../public/volunteer/Headshot-.webp",
+      type: "volunteer",
+    },
   ];
 
   return (

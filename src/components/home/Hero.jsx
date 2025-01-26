@@ -54,7 +54,7 @@ const Hero = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.4 }}
         >
-          Full-Stack Developer | Software Engineer | ML Enthusiast
+          Full-Stack Web Developer | Software Engineer | ICT Teacher
         </motion.h2>
 
         <motion.p
@@ -74,7 +74,7 @@ const Hero = () => {
           transition={{ delay: 0.8 }}
         >
           <a
-            href="/Pubudu_CV.pdf"
+            href="https://drive.google.com/file/d/1Q_Ct0kM0O7whHQ0wiZ9gIqoWnzFyVZOx/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className="button-primary inline-flex items-center space-x-2"
