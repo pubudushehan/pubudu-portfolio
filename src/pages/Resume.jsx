@@ -17,7 +17,19 @@ const Resume = () => {
       organization: "Central College Kuliyapitiya",
       period: "2018 - 2020",
       description:
-        "Bio System Technology (District Rank - 4) | ICT - A | Science for Technology - B",
+        "Bio System Technology (District Rank - 4) | ICT - A | Science for Technology - A | Bio System Technology - B",
+    },
+    {
+      title: "G.C.E. Ordinary Level",
+      organization: "NK/ Diwullegoda M.V",
+      period: "2013 - 2017",
+      description: "7A Passes | 1B Pass | 1C Pass",
+    },
+    {
+      title: "G.C.E. Ordinary Level",
+      organization: "Kuli/ Weerapokuna National College",
+      period: "2007 - 2013",
+      description: "Primary Education",
     },
   ];
 

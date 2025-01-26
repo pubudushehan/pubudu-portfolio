@@ -164,13 +164,13 @@ const Contact = () => {
                         href="tel:+94789988379"
                         className="block text-gray-200 hover:text-primary transition-colors duration-300"
                       >
-                        +94 789988379
+                        +94 78 998 8379
                       </a>
                       <a
                         href="tel:+94716598089"
                         className="block text-gray-200 hover:text-primary transition-colors duration-300"
                       >
-                        +94 716598089
+                        +94 71 659 8089
                       </a>
                     </div>
                   </div>

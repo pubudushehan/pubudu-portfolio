@@ -56,7 +56,7 @@ const TechBackground = () => {
   return (
     <div className="fixed inset-0 overflow-hidden pointer-events-none">
       {/* Binary Rain */}
-      <div className="absolute inset-0">
+      <div className="absolute right-0 w-1/5 h-full opacity-70">
         {Array.from({ length: 30 }).map((_, i) => (
           <motion.div
             key={`binary-${i}`}
