@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { FaEnvelope, FaLinkedin, FaGithub, FaTwitter } from "react-icons/fa";
+import { FaEnvelope, FaLinkedin, FaGithub, FaFacebook } from "react-icons/fa";
 import RoboticElements from "../components/common/RoboticElements";
 
 const Contact = () => {
@@ -192,7 +192,8 @@ const Contact = () => {
                   </span>
                   <div className="flex-1">
                     <p className="text-gray-300 text-sm">
-                      Available for freelance opportunities and collaborations.
+                      Available for Full-Stack Web Development and Software
+                      development projects.
                     </p>
                     <div className="flex items-center space-x-1 mt-0.5">
                       <span className="text-[#00ffff]">
@@ -200,9 +201,6 @@ const Contact = () => {
                       </span>
                       <span className="text-white">🚀</span>
                     </div>
-                    <p className="text-gray-400 text-sm">
-                      Usually within 24 hours
-                    </p>
                   </div>
                 </div>
               </div>
@@ -215,13 +213,29 @@ const Contact = () => {
 };
 
 const socialLinks = [
-  { name: "LinkedIn", url: "#", icon: <FaLinkedin size={20} /> },
-  { name: "GitHub", url: "#", icon: <FaGithub size={20} /> },
-  { name: "Twitter", url: "#", icon: <FaTwitter size={20} /> },
+  {
+    name: "GitHub",
+    icon: <FaGithub className="text-2xl" />,
+    url: "https://github.com/pubudushehan",
+    color: "hover:text-gray-400",
+  },
+  {
+    name: "LinkedIn",
+    icon: <FaLinkedin className="text-2xl" />,
+    url: "https://www.linkedin.com/in/pubudu-shehan-37a2132a6/",
+    color: "hover:text-blue-400",
+  },
   {
     name: "Email",
-    url: "mailto:your.email@example.com",
-    icon: <FaEnvelope size={20} />,
+    icon: <FaEnvelope className="text-2xl" />,
+    url: "mailto:pubudushehankarunarathna@gmail.com",
+    color: "hover:text-red-400",
+  },
+  {
+    name: "Facebook",
+    icon: <FaFacebook className="text-2xl" />,
+    url: "https://www.facebook.com/pubudu.shehan.9",
+    color: "hover:text-blue-400",
   },
 ];
 

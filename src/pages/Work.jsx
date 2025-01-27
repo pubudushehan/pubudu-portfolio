@@ -378,7 +378,7 @@ const VolunteerSection = ({ setSelectedItem }) => {
       organization: "Technology Subcommittee: FOT - USJ",
       period: "2023 - 2024",
       description:
-        "Serving as Secretary for the Technology Subcommittee at Faculty of Technology, University of Sri Jayewardenepura",
+        "Serving as Secretary for the Technology Subcommittee at Faculty of Technology, University of Sri Jayewardenepura. Organizing tech events (Headshot E-Sport Gaming Competition 2024), managing documentation, and coordinating committee activities.",
       image: "../public/volunteer/Headshot.webp",
       type: "volunteer",
     },
@@ -387,7 +387,7 @@ const VolunteerSection = ({ setSelectedItem }) => {
       organization: "J'Pura Electro Combat Robot Battle Competition",
       period: "2024",
       description:
-        "Served as a referee for the ElectroCombat Robot Battle competition at University of Sri Jayewardenepura",
+        "Served as a referee for the ElectroCombat Robot Battle competition at University of Sri Jayewardenepura. Ensured fair play and rule compliance during robot battles.",
       image: "../public/volunteer/Electro_Combat.webp",
       type: "volunteer",
     },
@@ -396,7 +396,7 @@ const VolunteerSection = ({ setSelectedItem }) => {
       organization: "Headshot E Sport Gaming Competition",
       period: "2025 January",
       description:
-        "Organizing Committee for the Headshot E Sport Gaming Competition",
+        "Leading member of the organizing committee for the Headshot E Sport Gaming Competition. Managing event logistics, participant coordination, and technical setup.",
       image: "../public/volunteer/Headshot-.webp",
       type: "volunteer",
     },
@@ -419,13 +419,13 @@ const VolunteerSection = ({ setSelectedItem }) => {
 const AchievementsSection = ({ setSelectedItem }) => {
   const achievements = [
     {
-      title: "Hackathon Winner",
-      event: "University Tech Fest 2023",
-      description: "First place in the AI/ML category",
-      image: "/achievements/hackathon.webp",
+      title: "Spoken English Course",
+      organization: "Arunella English Academy",
+      period: "2017 - 2018",
+      description:
+        "Completed comprehensive Spoken English course focusing on communication skills, pronunciation, and business English.",
       type: "achievement",
     },
-    // Add more achievements...
   ];
 
   return (

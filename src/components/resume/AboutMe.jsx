@@ -44,10 +44,10 @@ const AboutMe = () => {
       >
         <p className="text-lg text-gray-300 leading-relaxed mb-6">
           I am an undergraduate student pursuing a Bachelor's degree in Software
-          Engineering Technology at the University of Sri Jayawardenapura. I am
-          passionate about web development and creating innovative solutions
-          that make a positive impact. Currently focusing on full-stack
-          development and exploring machine learning technologies.
+          Engineering Technology at the University of Sri Jayewardenepura. I am
+          passionate about Full-Stack web development and creating innovative
+          solutions that make a positive impact. Currently focusing on
+          full-stack development and exploring machine learning technologies.
         </p>
       </motion.div>
 
