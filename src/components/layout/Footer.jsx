@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaFacebook, FaEnvelope } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -29,13 +29,13 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link to="/resume" className="text-gray-300 hover:text-white">
-                  Resume
+                <Link to="/work" className="text-gray-300 hover:text-white">
+                  Work
                 </Link>
               </li>
               <li>
-                <Link to="/work" className="text-gray-300 hover:text-white">
-                  Work
+                <Link to="/resume" className="text-gray-300 hover:text-white">
+                  Resume
                 </Link>
               </li>
               <li>
@@ -51,28 +51,36 @@ const Footer = () => {
             <h4 className="text-lg font-semibold mb-4">Connect</h4>
             <div className="flex space-x-4">
               <a
-                href="https://github.com/yourusername"
+                href="https://github.com/pubudushehan"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-gray-300 hover:text-white"
+                className="text-gray-300 hover:text-gray-400"
               >
                 <FaGithub size={24} />
               </a>
               <a
-                href="https://linkedin.com/in/yourusername"
+                href="https://www.linkedin.com/in/pubudu-shehan-37a2132a6/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-gray-300 hover:text-white"
+                className="text-gray-300 hover:text-blue-400"
               >
                 <FaLinkedin size={24} />
               </a>
               <a
-                href="https://twitter.com/yourusername"
+                href="mailto:pubudushehankarunarathna@gmail.com"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-gray-300 hover:text-white"
+                className="text-gray-300 hover:text-red-400"
               >
-                <FaTwitter size={24} />
+                <FaEnvelope size={24} />
+              </a>
+              <a
+                href="https://www.facebook.com/pubudu.shehan.9"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-300 hover:text-blue-400"
+              >
+                <FaFacebook size={24} />
               </a>
             </div>
           </div>

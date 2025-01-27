@@ -1,18 +1,18 @@
 import { motion } from "framer-motion";
-import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaEnvelope, FaFacebook } from "react-icons/fa";
 
 const SocialLinks = () => {
   const links = [
     {
       name: "GitHub",
       icon: <FaGithub className="text-2xl" />,
-      url: "https://github.com/pubudu-shehan",
+      url: "https://github.com/pubudushehan",
       color: "hover:text-gray-400",
     },
     {
       name: "LinkedIn",
       icon: <FaLinkedin className="text-2xl" />,
-      url: "https://linkedin.com/in/pubudu-shehan",
+      url: "https://www.linkedin.com/in/pubudu-shehan-37a2132a6/",
       color: "hover:text-blue-400",
     },
     {
@@ -20,6 +20,12 @@ const SocialLinks = () => {
       icon: <FaEnvelope className="text-2xl" />,
       url: "mailto:pubudushehankarunarathna@gmail.com",
       color: "hover:text-red-400",
+    },
+    {
+      name: "Facebook",
+      icon: <FaFacebook className="text-2xl" />,
+      url: "https://www.facebook.com/pubudu.shehan.9",
+      color: "hover:text-blue-400",
     },
   ];
 
