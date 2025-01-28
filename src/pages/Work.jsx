@@ -7,28 +7,28 @@ import AchievementCard from "../components/work/AchievementCard";
 import RoboticElements from "../components/common/RoboticElements";
 
 // Import project images
-import userCentralImg from "../assets/projects/UserCentral.webp";
-import text2ArtImg from "../assets/projects/Text2Art.webp";
-import testGeniusImg from "../assets/projects/TestGenius.webp";
-import behaviorDetectionImg from "../assets/projects/BehaviorDetection.webp";
-import researchGapImg from "../assets/projects/ResearchGapAnalyzer.webp";
-import portfolioImg from "../assets/projects/portfolio.webp";
+import userCentralImg from "/projects/UserCentral.webp";
+import text2ArtImg from "/projects/Text2Art.webp";
+import testGeniusImg from "/projects/TestGenius.webp";
+import behaviorDetectionImg from "/projects/BehaviorDetection.webp";
+import researchGapImg from "/projects/ResearchGapAnalyzer.webp";
+import portfolioImg from "/projects/portfolio.webp";
 
 // Import certificate images
-import awsCertImg from "../assets/certificates/AWS Certificate.webp";
-import ibmCloudImg from "../assets/certificates/IBM-Cloud.webp";
-import aiFundamentalImg from "../assets/certificates/AI-Fundamental.webp";
-import cnnImg from "../assets/certificates/CNN.webp";
-import imageProcessingImg from "../assets/certificates/Image-Processing.webp";
-import javaProgrammingImg from "../assets/certificates/Java Programming.webp";
-import probabilityMLImg from "../assets/certificates/Probabality ML.webp";
-import pythonBeginnerImg from "../assets/certificates/Python Begginer.webp";
-import refereeElectroImg from "../assets/certificates/Referee-Electro-Cambat.webp";
+import awsCertImg from "/certificates/AWS Certificate.webp";
+import ibmCloudImg from "/certificates/IBM-Cloud.webp";
+import aiFundamentalImg from "/certificates/AI-Fundamental.webp";
+import cnnImg from "/certificates/CNN.webp";
+import imageProcessingImg from "/certificates/Image-Processing.webp";
+import javaProgrammingImg from "/certificates/Java Programming.webp";
+import probabilityMLImg from "/certificates/Probabality ML.webp";
+import pythonBeginnerImg from "/certificates/Python Begginer.webp";
+import refereeElectroImg from "/certificates/Referee-Electro-Cambat.webp";
 
 // Import volunteer images
-import headshotImg from "../assets/volunteer/Headshot.webp";
-import electroCombatImg from "../assets/volunteer/Electro_Combat.webp";
-import headshot2Img from "../assets/volunteer/Headshot-.webp";
+import headshotImg from "/volunteer/Headshot.webp";
+import electroCombatImg from "/volunteer/Electro_Combat.webp";
+import headshot2Img from "/volunteer/Headshot-.webp";
 
 const Work = () => {
   const [activeTab, setActiveTab] = useState("projects");
