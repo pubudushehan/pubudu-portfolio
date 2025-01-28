@@ -12,7 +12,7 @@ import text2ArtImg from "/projects/Text2Art.webp";
 import testGeniusImg from "/projects/TestGenius.webp";
 import behaviorDetectionImg from "/projects/BehaviorDetection.webp";
 import researchGapImg from "/projects/ResearchGapAnalyzer.webp";
-import portfolioImg from "/projects/portfolio.webp";
+import portfolioImg from "/projects/Portfolio.webp";
 
 // Import certificate images
 import awsCertImg from "/certificates/AWS Certificate.webp";
