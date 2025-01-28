@@ -6,6 +6,30 @@ import VolunteerCard from "../components/work/VolunteerCard";
 import AchievementCard from "../components/work/AchievementCard";
 import RoboticElements from "../components/common/RoboticElements";
 
+// Import project images
+import userCentralImg from "../assets/projects/UserCentral.webp";
+import text2ArtImg from "../assets/projects/Text2Art.webp";
+import testGeniusImg from "../assets/projects/TestGenius.webp";
+import behaviorDetectionImg from "../assets/projects/BehaviorDetection.webp";
+import researchGapImg from "../assets/projects/ResearchGapAnalyzer.webp";
+import portfolioImg from "../assets/projects/portfolio.webp";
+
+// Import certificate images
+import awsCertImg from "../assets/certificates/AWS Certificate.webp";
+import ibmCloudImg from "../assets/certificates/IBM-Cloud.webp";
+import aiFundamentalImg from "../assets/certificates/AI-Fundamental.webp";
+import cnnImg from "../assets/certificates/CNN.webp";
+import imageProcessingImg from "../assets/certificates/Image-Processing.webp";
+import javaProgrammingImg from "../assets/certificates/Java Programming.webp";
+import probabilityMLImg from "../assets/certificates/Probabality ML.webp";
+import pythonBeginnerImg from "../assets/certificates/Python Begginer.webp";
+import refereeElectroImg from "../assets/certificates/Referee-Electro-Cambat.webp";
+
+// Import volunteer images
+import headshotImg from "../assets/volunteer/Headshot.webp";
+import electroCombatImg from "../assets/volunteer/Electro_Combat.webp";
+import headshot2Img from "../assets/volunteer/Headshot-.webp";
+
 const Work = () => {
   const [activeTab, setActiveTab] = useState("projects");
   const [selectedItem, setSelectedItem] = useState(null);
@@ -202,7 +226,7 @@ const ProjectsSection = ({ setSelectedItem }) => {
       title: "User Central",
       description:
         "A user management system enabling contact management, messaging, and photo uploads with full CRUD functionality",
-      image: "../src/assets/projects/UserCentral.webp",
+      image: userCentralImg,
       technologies: ["React", "CSS", "MongoDB", "Express.js", "Node.js"],
       github: "https://github.com/pubudushehan/UserCentral",
       live: "#",
@@ -212,7 +236,7 @@ const ProjectsSection = ({ setSelectedItem }) => {
       title: "Text2Art",
       description:
         "A web app that creates images from text prompts using OpenAI's DALL-E",
-      image: "../src/assets/projects/Text2Art.webp",
+      image: text2ArtImg,
       technologies: ["MERN", "MongoDB", "Express.js", "React", "Node.js"],
       github: "https://github.com/pubudu-shehan/textart",
       live: "#",
@@ -222,7 +246,7 @@ const ProjectsSection = ({ setSelectedItem }) => {
       title: "Test Genius",
       description:
         "A quiz app for Advanced Level ICT students with past paper MCQs, timer-based quizzes",
-      image: "../src/assets/projects/TestGenius.webp",
+      image: testGeniusImg,
       technologies: [
         "React Vite",
         "TailwindCSS",
@@ -239,7 +263,7 @@ const ProjectsSection = ({ setSelectedItem }) => {
       title: "Abnormal Behavior Detection",
       description:
         "Identify abnormal customer behaviors in supermarkets using CCTV footage. AI-driven pose estimation and action recognition",
-      image: "../src/assets/projects/BehaviorDetection.webp",
+      image: behaviorDetectionImg,
       technologies: ["MediaPipe", "LSTM", "TensorFlow", "OpenCV"],
       github:
         "https://github.com/pubudushehan/CCTV_Abnormal_Behavior_Detection",
@@ -250,7 +274,7 @@ const ProjectsSection = ({ setSelectedItem }) => {
       title: "Research Gap Analyzer",
       description:
         "A tool to identify research gaps across three research papers, summarizing individual papers and detecting shared or unique gaps",
-      image: "../src/assets/projects/ResearchGapAnalyzer.webp",
+      image: researchGapImg,
       technologies: ["LangML 3.5", "Flask", "Cloud", "Next.js"],
       github: "https://github.com/pubudushehan/Research-Gap-Analyzer",
       type: "project",
@@ -259,7 +283,7 @@ const ProjectsSection = ({ setSelectedItem }) => {
       title: "Portfolio Website",
       description:
         "Modern portfolio website built with React vite and Framer Motion",
-      image: "../src/assets/projects/portfolio.webp",
+      image: portfolioImg,
       technologies: ["React Vite", "Tailwind CSS", "Framer Motion"],
       github: "https://github.com/pubudushehan/pubudu-portfolio",
       live: "#",
@@ -287,7 +311,7 @@ const CertificatesSection = ({ setSelectedItem }) => {
       title: "AWS Cloud Practitioner Essentials",
       issuer: "Amazon Web Services (AWS)",
       date: "2025",
-      image: "../src/assets/certificates/AWS Certificate.webp",
+      image: awsCertImg,
       link: "#",
       type: "certificate",
     },
@@ -295,7 +319,7 @@ const CertificatesSection = ({ setSelectedItem }) => {
       title: "Introduction to Cloud Computing by IBM",
       issuer: "Certified from Coursera",
       date: "2024",
-      image: "../src/assets/certificates/IBM-Cloud.webp",
+      image: ibmCloudImg,
       link: "#",
       type: "certificate",
     },
@@ -303,7 +327,7 @@ const CertificatesSection = ({ setSelectedItem }) => {
       title: "Artificial Intelligence fundamentals",
       issuer: "Certified from Great Learning Academy",
       date: "2024",
-      image: "../src/assets/certificates/AI-Fundamental.webp",
+      image: aiFundamentalImg,
       link: "#",
       type: "certificate",
     },
@@ -311,7 +335,7 @@ const CertificatesSection = ({ setSelectedItem }) => {
       title: "Convolutional Neural Networks",
       issuer: "Certified from Great Learning Academy",
       date: "2024",
-      image: "../src/assets/certificates/CNN.webp",
+      image: cnnImg,
       link: "#",
       type: "certificate",
     },
@@ -319,7 +343,7 @@ const CertificatesSection = ({ setSelectedItem }) => {
       title: "Digital Image Processing",
       issuer: "Certified from Great Learning Academy",
       date: "2024",
-      image: "../src/assets/certificates/Image-Processing.webp",
+      image: imageProcessingImg,
       link: "#",
       type: "certificate",
     },
@@ -327,7 +351,7 @@ const CertificatesSection = ({ setSelectedItem }) => {
       title: "Java Programming",
       issuer: "Certified from Great Learning Academy",
       date: "2024",
-      image: "../src/assets/certificates/Java Programming.webp",
+      image: javaProgrammingImg,
       link: "#",
       type: "certificate",
     },
@@ -335,7 +359,7 @@ const CertificatesSection = ({ setSelectedItem }) => {
       title: "Probability and Probability Distributions for Machine Learning",
       issuer: "Certified from Great Learning Academy",
       date: "2024",
-      image: "../src/assets/certificates/Probabality ML.webp",
+      image: probabilityMLImg,
       link: "#",
       type: "certificate",
     },
@@ -343,7 +367,7 @@ const CertificatesSection = ({ setSelectedItem }) => {
       title: "Python Project for Beginners",
       issuer: "Certified from Great Learning Academy",
       date: "2024",
-      image: "../src/assets/certificates/Python Begginer.webp",
+      image: pythonBeginnerImg,
       link: "#",
       type: "certificate",
     },
@@ -351,7 +375,7 @@ const CertificatesSection = ({ setSelectedItem }) => {
       title: "Referee of Electro Combat Gaming Competition",
       issuer: "Certified from University of Sri Jayewardenepura",
       date: "2024",
-      image: "../src/assets/certificates/Referee-Electro-Cambat.webp",
+      image: refereeElectroImg,
       link: "#",
       type: "certificate",
     },
@@ -379,7 +403,7 @@ const VolunteerSection = ({ setSelectedItem }) => {
       period: "2023 - 2024",
       description:
         "Serving as Secretary for the Technology Subcommittee at Faculty of Technology, University of Sri Jayewardenepura. Organizing tech events (Headshot E-Sport Gaming Competition 2024), managing documentation, and coordinating committee activities.",
-      image: "../src/assets/volunteer/Headshot.webp",
+      image: headshotImg,
       type: "volunteer",
     },
     {
@@ -388,7 +412,7 @@ const VolunteerSection = ({ setSelectedItem }) => {
       period: "2024",
       description:
         "Served as a referee for the ElectroCombat Robot Battle competition at University of Sri Jayewardenepura. Ensured fair play and rule compliance during robot battles.",
-      image: "../src/assets/volunteer/Electro_Combat.webp",
+      image: electroCombatImg,
       type: "volunteer",
     },
     {
@@ -397,7 +421,7 @@ const VolunteerSection = ({ setSelectedItem }) => {
       period: "2025 January",
       description:
         "Leading member of the organizing committee for the Headshot E Sport Gaming Competition. Managing event logistics, participant coordination, and technical setup.",
-      image: "../src/assets/volunteer/Headshot-.webp",
+      image: headshot2Img,
       type: "volunteer",
     },
   ];
