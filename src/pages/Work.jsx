@@ -202,7 +202,7 @@ const ProjectsSection = ({ setSelectedItem }) => {
       title: "User Central",
       description:
         "A user management system enabling contact management, messaging, and photo uploads with full CRUD functionality",
-      image: "../public/projects/UserCentral.webp",
+      image: "../src/assets/projects/UserCentral.webp",
       technologies: ["React", "CSS", "MongoDB", "Express.js", "Node.js"],
       github: "https://github.com/pubudushehan/UserCentral",
       live: "#",
@@ -212,7 +212,7 @@ const ProjectsSection = ({ setSelectedItem }) => {
       title: "Text2Art",
       description:
         "A web app that creates images from text prompts using OpenAI's DALL-E",
-      image: "../public/projects/Text2Art.webp",
+      image: "../src/assets/projects/Text2Art.webp",
       technologies: ["MERN", "MongoDB", "Express.js", "React", "Node.js"],
       github: "https://github.com/pubudu-shehan/textart",
       live: "#",
@@ -222,7 +222,7 @@ const ProjectsSection = ({ setSelectedItem }) => {
       title: "Test Genius",
       description:
         "A quiz app for Advanced Level ICT students with past paper MCQs, timer-based quizzes",
-      image: "../public/projects/TestGenius.webp",
+      image: "../src/assets/projects/TestGenius.webp",
       technologies: [
         "React Vite",
         "TailwindCSS",
@@ -239,7 +239,7 @@ const ProjectsSection = ({ setSelectedItem }) => {
       title: "Abnormal Behavior Detection",
       description:
         "Identify abnormal customer behaviors in supermarkets using CCTV footage. AI-driven pose estimation and action recognition",
-      image: "../public/projects/BehaviorDetection.webp",
+      image: "../src/assets/projects/BehaviorDetection.webp",
       technologies: ["MediaPipe", "LSTM", "TensorFlow", "OpenCV"],
       github:
         "https://github.com/pubudushehan/CCTV_Abnormal_Behavior_Detection",
@@ -250,7 +250,7 @@ const ProjectsSection = ({ setSelectedItem }) => {
       title: "Research Gap Analyzer",
       description:
         "A tool to identify research gaps across three research papers, summarizing individual papers and detecting shared or unique gaps",
-      image: "../public/projects/ResearchGapAnalyzer.webp",
+      image: "../src/assets/projects/ResearchGapAnalyzer.webp",
       technologies: ["LangML 3.5", "Flask", "Cloud", "Next.js"],
       github: "https://github.com/pubudushehan/Research-Gap-Analyzer",
       type: "project",
@@ -259,7 +259,7 @@ const ProjectsSection = ({ setSelectedItem }) => {
       title: "Portfolio Website",
       description:
         "Modern portfolio website built with React vite and Framer Motion",
-      image: "../public/projects/portfolio.webp",
+      image: "../src/assets/projects/portfolio.webp",
       technologies: ["React Vite", "Tailwind CSS", "Framer Motion"],
       github: "https://github.com/pubudushehan/pubudu-portfolio",
       live: "#",
@@ -287,7 +287,7 @@ const CertificatesSection = ({ setSelectedItem }) => {
       title: "AWS Cloud Practitioner Essentials",
       issuer: "Amazon Web Services (AWS)",
       date: "2025",
-      image: "../public/certificates/AWS Certificate.webp",
+      image: "../src/assets/certificates/AWS Certificate.webp",
       link: "#",
       type: "certificate",
     },
@@ -295,7 +295,7 @@ const CertificatesSection = ({ setSelectedItem }) => {
       title: "Introduction to Cloud Computing by IBM",
       issuer: "Certified from Coursera",
       date: "2024",
-      image: "../public/certificates/IBM-Cloud.webp",
+      image: "../src/assets/certificates/IBM-Cloud.webp",
       link: "#",
       type: "certificate",
     },
@@ -303,7 +303,7 @@ const CertificatesSection = ({ setSelectedItem }) => {
       title: "Artificial Intelligence fundamentals",
       issuer: "Certified from Great Learning Academy",
       date: "2024",
-      image: "../public/certificates/AI-Fundamental.webp",
+      image: "../src/assets/certificates/AI-Fundamental.webp",
       link: "#",
       type: "certificate",
     },
@@ -311,7 +311,7 @@ const CertificatesSection = ({ setSelectedItem }) => {
       title: "Convolutional Neural Networks",
       issuer: "Certified from Great Learning Academy",
       date: "2024",
-      image: "../public/certificates/CNN.webp",
+      image: "../src/assets/certificates/CNN.webp",
       link: "#",
       type: "certificate",
     },
@@ -319,7 +319,7 @@ const CertificatesSection = ({ setSelectedItem }) => {
       title: "Digital Image Processing",
       issuer: "Certified from Great Learning Academy",
       date: "2024",
-      image: "../public/certificates/Image-Processing.webp",
+      image: "../src/assets/certificates/Image-Processing.webp",
       link: "#",
       type: "certificate",
     },
@@ -327,7 +327,7 @@ const CertificatesSection = ({ setSelectedItem }) => {
       title: "Java Programming",
       issuer: "Certified from Great Learning Academy",
       date: "2024",
-      image: "../public/certificates/Java Programming.webp",
+      image: "../src/assets/certificates/Java Programming.webp",
       link: "#",
       type: "certificate",
     },
@@ -335,7 +335,7 @@ const CertificatesSection = ({ setSelectedItem }) => {
       title: "Probability and Probability Distributions for Machine Learning",
       issuer: "Certified from Great Learning Academy",
       date: "2024",
-      image: "../public/certificates/Probabality ML.webp",
+      image: "../src/assets/certificates/Probabality ML.webp",
       link: "#",
       type: "certificate",
     },
@@ -343,7 +343,7 @@ const CertificatesSection = ({ setSelectedItem }) => {
       title: "Python Project for Beginners",
       issuer: "Certified from Great Learning Academy",
       date: "2024",
-      image: "../public/certificates/Python Begginer.webp",
+      image: "../src/assets/certificates/Python Begginer.webp",
       link: "#",
       type: "certificate",
     },
@@ -351,7 +351,7 @@ const CertificatesSection = ({ setSelectedItem }) => {
       title: "Referee of Electro Combat Gaming Competition",
       issuer: "Certified from University of Sri Jayewardenepura",
       date: "2024",
-      image: "../public/certificates/Referee-Electro-Cambat.webp",
+      image: "../src/assets/certificates/Referee-Electro-Cambat.webp",
       link: "#",
       type: "certificate",
     },
@@ -379,7 +379,7 @@ const VolunteerSection = ({ setSelectedItem }) => {
       period: "2023 - 2024",
       description:
         "Serving as Secretary for the Technology Subcommittee at Faculty of Technology, University of Sri Jayewardenepura. Organizing tech events (Headshot E-Sport Gaming Competition 2024), managing documentation, and coordinating committee activities.",
-      image: "../public/volunteer/Headshot.webp",
+      image: "../src/assets/volunteer/Headshot.webp",
       type: "volunteer",
     },
     {
@@ -388,7 +388,7 @@ const VolunteerSection = ({ setSelectedItem }) => {
       period: "2024",
       description:
         "Served as a referee for the ElectroCombat Robot Battle competition at University of Sri Jayewardenepura. Ensured fair play and rule compliance during robot battles.",
-      image: "../public/volunteer/Electro_Combat.webp",
+      image: "../src/assets/volunteer/Electro_Combat.webp",
       type: "volunteer",
     },
     {
@@ -397,7 +397,7 @@ const VolunteerSection = ({ setSelectedItem }) => {
       period: "2025 January",
       description:
         "Leading member of the organizing committee for the Headshot E Sport Gaming Competition. Managing event logistics, participant coordination, and technical setup.",
-      image: "../public/volunteer/Headshot-.webp",
+      image: "../src/assets/volunteer/Headshot-.webp",
       type: "volunteer",
     },
   ];
